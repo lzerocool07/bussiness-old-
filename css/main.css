@@ -1,0 +1,60 @@
+
+/*top*/
+.top{
+    height:581px;
+    background: url(../img/topBg.jpg)no-repeat top center;
+    padding-top:220px;
+    background-size: cover;
+    
+}
+.top h1{
+    font:48px 'Parangon 530C', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0 80px; 
+    
+}
+.top p{
+    font:24px 'PT Sans Caption',sans-serif;
+    color:#fff;
+    text-align: center;
+    margin: 25px 265px;
+    margin-bottom:0; 
+    line-height: 1.5;
+}
+.achievements{
+    width:70%;
+    margin:55px auto;
+   
+}
+.iconStyle{
+    display: inline-block;
+    background: url(../img/topSetIcon.png)no-repeat;
+    height: 174px;
+    width: 250px;
+    margin-left:55px;
+    position: relative;
+    text-align: center;
+}
+.content{
+    position: absolute;
+    margin-top:55px;
+    width: inherit;
+    text-align: center;    
+}
+.number{
+    font:48px 'Parangon 530C',sans-serif; 
+    color: #fff;
+}
+.text{
+    font:18px 'PT Sans Caption',sans-serif;
+    color: #fff;
+}
+.projects{
+   background-position: -311px 0;
+}
+.clients{
+    background-position: -622px 0;
+}
+/*/top*/
