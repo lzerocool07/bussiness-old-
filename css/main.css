@@ -24,24 +24,25 @@
     line-height: 1.5;
 }
 .achievements{
-    width:70%;
+    width:60%;
     margin:55px auto;
-   
+    padding:0 100px;
+    position: relative;
 }
 .iconStyle{
     display: inline-block;
     background: url(../img/topSetIcon.png)no-repeat;
     height: 174px;
-    width: 250px;
-    margin-left:55px;
-    position: relative;
-    text-align: center;
+    width: 253px;
+    position: absolute;
+  
 }
 .content{
-    position: absolute;
+    
     margin-top:55px;
     width: inherit;
     text-align: center;    
+    
 }
 .number{
     font:48px 'Parangon 530C',sans-serif; 
@@ -51,10 +52,19 @@
     font:18px 'PT Sans Caption',sans-serif;
     color: #fff;
 }
+.services{
+    left: 0;
+    top:0;
+}
 .projects{
-   background-position: -311px 0;
+    background-position: -310px 0;
+    left: 38%;
+    top: 0;
+   
 }
 .clients{
-    background-position: -622px 0;
+    background-position: -619px 0;
+    right:0;
+    top:0;
 }
 /*/top*/
