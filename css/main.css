@@ -1,13 +1,18 @@
 
+
+.center{
+    width:80%;
+    margin: 0 auto;
+}
 /*top*/
 .top{
     height:581px;
-    background: url(../img/topBg.jpg)no-repeat top center;
+    background: url(../img/topBg.jpg)repeat-x top center;
     padding-top:220px;
-    background-size: cover;
+/*    background-size: cover;*/
     
 }
-.top h1{
+.top h2{
     font:48px 'Parangon 530C', sans-serif;
     color: #fff;
     text-align: center;
@@ -58,8 +63,9 @@
 }
 .projects{
     background-position: -310px 0;
-    left: 38%;
+    left: 50%;
     top: 0;
+    margin-left: -126px;
    
 }
 .clients{
@@ -68,3 +74,204 @@
     top:0;
 }
 /*/top*/
+
+/*nav*/
+.navigation{
+    list-style-type: none;
+    padding:15px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 2px solid #adadad; 
+}
+.navigation li{
+    display: inline;
+    margin-right:80px; 
+}
+.navigation a{
+    font:30px 'Futura-Normal', sans-serif;
+    color: #000;
+    text-decoration: none;
+   
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+/*/nav*/
+
+
+/*aboutUs*/
+.aboutUs{
+    margin-top:100px;
+    padding-bottom:200px; 
+   
+}
+.aboutUsTop h1{
+    display: inline-block;
+    font:48px 'Futura-Normal',sans-serif;
+}
+.aboutText{
+    float: right;
+    width:60%; 
+    background: url(../img/letter.png)no-repeat ;
+    
+}
+.aboutUsTop::after{
+    content: '';
+    display:block;
+    height:0;
+    clear: both;
+}
+.aboutText p{
+    font:20px 'Arial', sans-serif;
+    color:#535353;
+    margin-top:40px;
+    line-height:1.5;
+    text-indent:20px; 
+}
+.information{
+    position: relative;
+    margin-top:150px; 
+}
+
+.start {
+    width:30%; 
+    position: absolute;
+    left:0;
+    top:0;
+}
+.support{
+    width:30%; 
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.promotion{
+    
+    width: 30%;
+    margin: 0 auto;
+    top:0;
+    
+    
+}
+.bg{
+    padding:10px 10px; 
+}
+
+.bg h3{
+    font:20px 'Arial',sans-serif;
+    font-weight: bold;
+    color:#000;
+    
+}
+.bg p{
+    font:15px 'Arial',sans-serif;
+    color:#535353;
+    line-height:1.6; 
+}
+.bg::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 60px;
+    background:url(../img/usIconSet.png)no-repeat; 
+}
+
+.promotion::before{
+    background-position: -53px 0;
+}
+.support::before{
+    background-position: -107px 0;
+}
+.bg:hover , .bg:hover p , .bg:hover h3{
+    background: #f6ae48;
+    color:#fff;
+}
+.start:hover::before{
+    background-position:0px -70px; 
+}
+.promotion:hover::before{
+    background-position: -53px -70px;
+}
+.support:hover::before{
+    background-position: -107px -70px;
+}
+/*/aboutUs*/
+
+
+/*motivation*/
+.motivation{
+    height:323px;
+    
+    background: url(../img/motBg.jpg)no-repeat top center;
+    background-size: cover;
+    padding:120px 0 
+}
+.motivationContent h2 {
+    font:50px 'Exo 2' ,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    
+}
+.motivationContent p{
+    font:24px 'HelveticaNeueCyr' ,sans-serif;
+    color:#fff;
+    text-align: center;
+    line-height:1.5;
+    margin: 0 100px;
+}
+/*/motivation*/
+
+/*price*/
+.priceContent{
+    position: relative;
+    height:526px;
+    background: url(../img/priceBg.jpg)no-repeat;
+    left:0;
+    top:-55px;
+}
+.priceContent h2{
+    font:50px 'Exo 2' ,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    position:absolute;
+    margin:130px 204px 0 210px
+    
+}
+.priceList{
+    position: relative
+}
+.landing{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    top:-270px;
+    width: 340px;
+    height: 315px;
+    background: url('../img/lending.jpg');
+}
+.site{
+    position: absolute;
+    top:-270px;
+    left:45%; 
+    display: inline-block;
+    margin-left:-120px; 
+    width: 340px;
+    height:315px;
+    background: url('../img/webSite.jpg');
+}
+.shop{
+    position: absolute;
+    right:0;
+    top:-270px;
+    display: inline-block;
+    width: 340px;
+    height:315px;
+    background: url('../img/internetShop.jpg');
+}
+/*/price*/
+
+
